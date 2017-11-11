@@ -18,7 +18,7 @@ public class Main extends JFrame implements GLEventListener
     private int rendering_program;
     private int vao[] = new int[1];
     private float x = 0.0f;
-    private float inc = 0.01f;
+    private float inc = 0.75f;
 
     public Main()
     {
@@ -43,14 +43,13 @@ public class Main extends JFrame implements GLEventListener
         FloatBuffer bkgBuffer = Buffers.newDirectFloatBuffer(bkg);
         gl.glClearBufferfv(GL_COLOR, 0, bkgBuffer);
         x += inc;
-        if (x > 1.0f)
-            inc = -0.01f;
-        if (x < -1.0f)
-            inc = 0.01f;
-        int offsset_loc = gl.glGetUniformLocation(rendering_program, "offset");
-        gl.glProgramUniform1f(rendering_program, offsset_loc, x);
-
-        gl.glDrawArrays(GL_TRIANGLES, 0, 3 );
+        if (x > 30.0f)
+            inc = -0.75f;
+        if (x < 0.0f)
+            inc = 0.75f;
+        
+        gl.glPointSize(x);
+        gl.glDrawArrays(GL_POINTS, 0, 1 );
     }
 
     public static void main(String[] args)
