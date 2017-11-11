@@ -147,7 +147,7 @@ public class Main extends JFrame implements GLEventListener
 
         try
         {
-            sc = new Scanner(new File(filename));
+            sc = new Scanner(new File("shaders/"+filename));
         }
         catch (IOException e)
         {
