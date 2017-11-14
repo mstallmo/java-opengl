@@ -17,13 +17,13 @@ mat4 buildTranslate(float x, float y, float z);
 void main(void)
 {
     float i = gl_InstanceID + tf;
-    //float a = sin(203.0 * i/4000.0) * 403.0;
-    //float b = cos(301.0 * i/2001.0) * 401.0;
-    //float c = sin(400.0 * i/3003.0) * 405.0;
+    float a = sin(203.0 * i/4000.0) * 403.0;
+    float b = cos(301.0 * i/2001.0) * 401.0;
+    float c = sin(400.0 * i/3003.0) * 405.0;
 
-    float a = sin(2.0 * i) * 8.0;
-    float b = cos(3.0 * i) * 8.0;
-    float c = sin(4.0 * i) * 8.0;
+    //float a = sin(2.0 * i) * 8.0;
+    //float b = cos(3.0 * i) * 8.0;
+    //float c = sin(4.0 * i) * 8.0;
 
     mat4 localRotX = buildRotateX(1000*i);
     mat4 localRotY = buildRotateY(1000*i);

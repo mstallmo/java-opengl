@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="58e7a5e1-1370-4cf2-adcd-12ecaae2d4fa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shaders/vert.shader" afterPath="$PROJECT_DIR$/shaders/vert.shader" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,14 +17,16 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="660">
+              <caret line="36" column="60" lean-forward="false" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#readShaderSource#0;class#Main#0" expanded="false" />
-                <element signature="method#printShaderLog#0;class#Main#0" expanded="false" />
-                <element signature="method#printProgramLog#0;class#Main#0" expanded="false" />
-                <element signature="method#checkOpenGLError#0;class#Main#0" expanded="false" />
+                <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+                <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+                <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+                <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+                <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+                <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -34,8 +35,8 @@
       <file leaf-file-name="vert.shader" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shaders/vert.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+            <state relative-caret-position="260">
+              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -286,11 +287,31 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13910356" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24970897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -307,10 +328,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#readShaderSource#0;class#Main#0" expanded="false" />
-            <element signature="method#printShaderLog#0;class#Main#0" expanded="false" />
-            <element signature="method#printProgramLog#0;class#Main#0" expanded="false" />
-            <element signature="method#checkOpenGLError#0;class#Main#0" expanded="false" />
+            <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+            <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -329,10 +352,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#readShaderSource#0;class#Main#0" expanded="false" />
-            <element signature="method#printShaderLog#0;class#Main#0" expanded="false" />
-            <element signature="method#printProgramLog#0;class#Main#0" expanded="false" />
-            <element signature="method#checkOpenGLError#0;class#Main#0" expanded="false" />
+            <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+            <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -351,10 +376,12 @@
           <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#readShaderSource#0;class#Main#0" expanded="false" />
-            <element signature="method#printShaderLog#0;class#Main#0" expanded="false" />
-            <element signature="method#printProgramLog#0;class#Main#0" expanded="false" />
-            <element signature="method#checkOpenGLError#0;class#Main#0" expanded="false" />
+            <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+            <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -373,10 +400,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#readShaderSource#0;class#Main#0" expanded="false" />
-            <element signature="method#printShaderLog#0;class#Main#0" expanded="false" />
-            <element signature="method#printProgramLog#0;class#Main#0" expanded="false" />
-            <element signature="method#checkOpenGLError#0;class#Main#0" expanded="false" />
+            <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+            <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -387,10 +416,12 @@
           <caret line="131" column="12" lean-forward="true" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#readShaderSource#0;class#Main#0" expanded="false" />
-            <element signature="method#printShaderLog#0;class#Main#0" expanded="false" />
-            <element signature="method#printProgramLog#0;class#Main#0" expanded="false" />
-            <element signature="method#checkOpenGLError#0;class#Main#0" expanded="false" />
+            <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+            <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -409,10 +440,12 @@
           <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#readShaderSource#0;class#Main#0" expanded="false" />
-            <element signature="method#printShaderLog#0;class#Main#0" expanded="false" />
-            <element signature="method#printProgramLog#0;class#Main#0" expanded="false" />
-            <element signature="method#checkOpenGLError#0;class#Main#0" expanded="false" />
+            <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+            <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -431,10 +464,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#readShaderSource#0;class#Main#0" expanded="false" />
-            <element signature="method#printShaderLog#0;class#Main#0" expanded="false" />
-            <element signature="method#printProgramLog#0;class#Main#0" expanded="false" />
-            <element signature="method#checkOpenGLError#0;class#Main#0" expanded="false" />
+            <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+            <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -457,22 +492,215 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shaders/vert.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        <state relative-caret-position="260">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="660">
+          <caret line="36" column="60" lean-forward="false" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#readShaderSource#0;class#Main#0" expanded="false" />
-            <element signature="method#printShaderLog#0;class#Main#0" expanded="false" />
-            <element signature="method#printProgramLog#0;class#Main#0" expanded="false" />
-            <element signature="method#checkOpenGLError#0;class#Main#0" expanded="false" />
+            <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+            <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+            <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/vert.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+            <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/vert.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+            <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/vert.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+            <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="131" column="12" lean-forward="true" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+            <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/vert.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+            <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/vert.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+            <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/GraphicsLib/CompanionFiles/Programs/Chapter_04_pipeline/Prog4_1_cube/3-tumbling/code/Code.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/frag.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/vert.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="36" column="60" lean-forward="false" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1510634356582" expanded="false" signature="4929:4944" ph=" { " />
+            <marker date="1510634356582" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1510634356582" expanded="false" signature="7558:8168" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8218:8764" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="8805:9350" ph="{...}" />
+            <marker date="1510634356582" expanded="false" signature="9387:9770" ph="{...}" />
           </folding>
         </state>
       </provider>
