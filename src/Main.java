@@ -56,26 +56,34 @@ public class Main extends JFrame implements GLEventListener
         Matrix3D vMat = new Matrix3D();
         vMat.translate(-cameraX, -cameraY, -cameraZ);
 
-        Matrix3D mMat = new Matrix3D();
-        double t = (double)(System.currentTimeMillis()) / 1000.0;
-        mMat.translate(Math.sin(2*t)*2.0, Math.sin(3*t)*2.0, Math.sin(4*t)*2.0);
-        mMat.rotate(100*t, 100*t, 100*t);
-
-        Matrix3D mvMat = new Matrix3D();
-        mvMat.concatenate(vMat);
-        mvMat.concatenate(mMat);
-
-        gl.glUniformMatrix4fv(mv_loc, 1, false, mvMat.getFloatValues(), 0);
         gl.glUniformMatrix4fv(proj_loc, 1, false, pMat.getFloatValues(), 0);
 
-        gl.glBindBuffer(GL_ARRAY_BUFFER, vbo[0]);
-        gl.glVertexAttribPointer(0, 3, GL_FLOAT, false, 0, 0);
-        gl.glEnableVertexAttribArray(0);
+        double t = (double)(System.currentTimeMillis()%3600000)/10000.0;
 
-        gl.glEnable(GL_DEPTH_TEST);
-        gl.glDepthFunc(GL_LEQUAL);
+        for (int i = 0; i < 24; i++)
+        {
+            double x = i + t;
 
-        gl.glDrawArrays(GL_TRIANGLES, 0, 36 );
+            Matrix3D mMat = new Matrix3D();
+
+            mMat.translate(Math.sin(2*x)*6.0, Math.sin(3*x)*6.0, Math.sin(4*x)*6.0);
+            mMat.rotate(1000*x, 1000*x, 1000*x);
+
+            Matrix3D mvMat = new Matrix3D();
+            mvMat.concatenate(vMat);
+            mvMat.concatenate(mMat);
+
+            gl.glUniformMatrix4fv(mv_loc, 1, false, mvMat.getFloatValues(), 0);
+
+            gl.glBindBuffer(GL_ARRAY_BUFFER, vbo[0]);
+            gl.glVertexAttribPointer(0, 3, GL_FLOAT, false, 0, 0);
+            gl.glEnableVertexAttribArray(0);
+
+            gl.glEnable(GL_DEPTH_TEST);
+            gl.glDepthFunc(GL_LEQUAL);
+
+            gl.glDrawArrays(GL_TRIANGLES, 0, 36);
+        }
     }
 
     public void init(GLAutoDrawable drawable)
@@ -83,7 +91,7 @@ public class Main extends JFrame implements GLEventListener
         GL4 gl = (GL4) drawable.getGL();
         rendering_program = createShaderProgram();
         setupVertices();
-        cameraX = 0.0f; cameraY = 0.0f; cameraZ = 8.0f;
+        cameraX = 0.0f; cameraY = 0.0f; cameraZ = 20.0f;
         cubeLocX = 0.0f; cubeLocY = -2.0f; cubeLocZ = 0.0f;
     }
 
