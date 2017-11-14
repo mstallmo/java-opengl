@@ -34,7 +34,7 @@ public class Main extends JFrame implements GLEventListener
         getContentPane().add(myCanvas);
         this.setVisible(true);
 
-        FPSAnimator animator = new FPSAnimator(myCanvas, 30);
+        FPSAnimator animator = new FPSAnimator(myCanvas, 50);
         animator.start();
     }
 
@@ -47,7 +47,8 @@ public class Main extends JFrame implements GLEventListener
         gl.glClearBufferfv(GL_COLOR, 0, bkgBuffer);
         gl.glUseProgram(rendering_program);
 
-        int mv_loc = gl.glGetUniformLocation(rendering_program, "mv_matrix");
+        int m_loc = gl.glGetUniformLocation(rendering_program, "m_matrix");
+        int v_loc = gl.glGetUniformLocation(rendering_program, "v_matrix");
         int proj_loc = gl.glGetUniformLocation(rendering_program, "proj_matrix");
 
         float aspect = (float) myCanvas.getWidth() / (float) myCanvas.getHeight();
@@ -56,34 +57,26 @@ public class Main extends JFrame implements GLEventListener
         Matrix3D vMat = new Matrix3D();
         vMat.translate(-cameraX, -cameraY, -cameraZ);
 
+
+        Matrix3D mMat = new Matrix3D();
+        double timeFactor = (double) (System.currentTimeMillis()%3600000)/10000.0;
+
+        gl.glUniformMatrix4fv(m_loc, 1, false, mMat.getFloatValues(), 0);
+        gl.glUniformMatrix4fv(v_loc, 1, false, vMat.getFloatValues(), 0);
         gl.glUniformMatrix4fv(proj_loc, 1, false, pMat.getFloatValues(), 0);
 
-        double t = (double)(System.currentTimeMillis()%3600000)/10000.0;
+        int tf_loc = gl.glGetUniformLocation(rendering_program, "tf");
+        gl.glUniform1f(tf_loc, (float)timeFactor);
 
-        for (int i = 0; i < 24; i++)
-        {
-            double x = i + t;
+        gl.glBindBuffer(GL_ARRAY_BUFFER, vbo[0]);
+        gl.glVertexAttribPointer(0, 3, GL_FLOAT, false, 0, 0);
+        gl.glEnableVertexAttribArray(0);
 
-            Matrix3D mMat = new Matrix3D();
+        gl.glEnable(GL_DEPTH_TEST);
+        gl.glDepthFunc(GL_LEQUAL);
 
-            mMat.translate(Math.sin(2*x)*6.0, Math.sin(3*x)*6.0, Math.sin(4*x)*6.0);
-            mMat.rotate(1000*x, 1000*x, 1000*x);
+        gl.glDrawArraysInstanced(GL_TRIANGLES, 0, 36, 24);
 
-            Matrix3D mvMat = new Matrix3D();
-            mvMat.concatenate(vMat);
-            mvMat.concatenate(mMat);
-
-            gl.glUniformMatrix4fv(mv_loc, 1, false, mvMat.getFloatValues(), 0);
-
-            gl.glBindBuffer(GL_ARRAY_BUFFER, vbo[0]);
-            gl.glVertexAttribPointer(0, 3, GL_FLOAT, false, 0, 0);
-            gl.glEnableVertexAttribArray(0);
-
-            gl.glEnable(GL_DEPTH_TEST);
-            gl.glDepthFunc(GL_LEQUAL);
-
-            gl.glDrawArrays(GL_TRIANGLES, 0, 36);
-        }
     }
 
     public void init(GLAutoDrawable drawable)
@@ -91,7 +84,7 @@ public class Main extends JFrame implements GLEventListener
         GL4 gl = (GL4) drawable.getGL();
         rendering_program = createShaderProgram();
         setupVertices();
-        cameraX = 0.0f; cameraY = 0.0f; cameraZ = 20.0f;
+        cameraX = 0.0f; cameraY = 0.0f; cameraZ = 32.0f;
         cubeLocX = 0.0f; cubeLocY = -2.0f; cubeLocZ = 0.0f;
     }
 
